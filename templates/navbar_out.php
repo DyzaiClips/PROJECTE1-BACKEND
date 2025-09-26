@@ -1,0 +1,42 @@
+<?php
+$path = __DIR__ . "/../language/ca.php";
+// echo $path;
+include($path); //language text
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Paradise</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand d-flex align-items-center" href="../index.php">
+                <img src="../img/Pokeball.svg" alt="Pokeball" width="30" height="24" class="me-2">
+                <span><?= $text['title_index'] ?></span>
+            </a>
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../view/login_view.php"><?= $text['login'] ?></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../view/register_view.php"><?= $text['register'] ?></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</body>
+
+</html>
