@@ -1,6 +1,6 @@
 <?php
 //Array amb els To Do
-$toDoList = [
+$todoList = [
    [
       "id" => 0,
       "id_user" => 0,
@@ -101,4 +101,4 @@ $toDoList = [
    ]
 ];
 
-$_SESSION['todoList'] = $toDoList;
+$_SESSION['tooList'] = $todoList;
