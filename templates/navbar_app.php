@@ -28,11 +28,11 @@ include($path); //language text
             <ul class="nav">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><?= $text['user_profile'] ?></a>
+                    <a class="nav-link" href="../controller/edit_user_profile_controller.php"><?= $text['user_profile'] ?></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../controller/logout_controller.php">Logout</a>
+                    <a class="nav-link" href="../controller/logout_controller.php"><b>Logout</b></a>
                 </li>
 
             </ul>

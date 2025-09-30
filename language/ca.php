@@ -1,17 +1,17 @@
 <?php
 
 $text = [
-    'title_index' => 'Bienvenido al Paraíso Nintendero de DyzaiLogs!',
-    'login' => 'Entre en Paradise',
-    'register' => 'Registrate en Paradise',
+    'title_index' => 'Benvingut al Mon Nintendero de DyzaiLogs!',
+    'login' => '<b>Entra a Paradise</b>',
+    'register' => '<b>Registrate en Paradise</b>',
     'placeholder_userLogin' => 'Només numeros i lletres minúscules',
     'placeholder_password' => 'Placeholder del password',
     'send_button' => "Envia",
     'change_button' => "Guarda els Canvis",
-    'register_link' => "Registra't",
-    'no_useraccount' => "No tens compte d'usuari? ",
+    'no_useraccount' => "Encara no has entrat a Paradise?",
     "title_app" => "Benvingut a PARADISE",
     "user_profile" => "Perfil",
+    'register_link' => "<b>Entra ja!</b>",
     'register_title' => "Registre",
     'register_name' => 'Nom i cognoms',
     'register_username' => "Nom d'usuari",

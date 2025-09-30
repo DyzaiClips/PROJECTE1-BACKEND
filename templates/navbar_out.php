@@ -28,10 +28,10 @@ include($path); //language text
 
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="../view/login_view.php"><?= $text['login'] ?></a>
+                    <a class="nav-link active" href="../view/login_view.php" style="color:#38AB75"><b><?= $text['login'] ?></b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../view/register_view.php"><?= $text['register'] ?></a>
+                    <a class="nav-link" href="../view/register_view.php" style="color:#38AB75"><b><?= $text['register'] ?></b></a>
                 </li>
             </ul>
 
