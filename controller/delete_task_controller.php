@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD']=='GET') {
                 //un cop hem localitzat la tasca
                 //amb l seva key l'esborrem
                 unset($_SESSION['todoList'][$key]);
-                header ('Location: ../view/app_view.php');
+                header ('Location: ../view/app_view.php?delete=true');
                 exit();
             }
         }

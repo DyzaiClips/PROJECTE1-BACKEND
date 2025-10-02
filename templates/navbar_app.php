@@ -28,7 +28,8 @@ include($path); //language text
             <ul class="nav">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../controller/edit_user_profile_controller.php"><?= $text['user_profile'] ?></a>
+                    <input type="hidden" name="username" value=<?= $users['username'] ?>>
+                    <a class="nav-link"  href="../view/user_profile_view.php"><?= $text['user_profile'] ?></a>
                 </li>
 
                 <li class="nav-item">
