@@ -63,7 +63,9 @@ include('../language/ca.php');
         <?php } ?>
     </div>
     <div>
+                <form action="../view/newtask_view.php" method="POST" class="border p-4 bg-light">
                 <input class="btn btn-secondary" type="submit" value="Add">
+                </form>
             </div>
 </div>
 

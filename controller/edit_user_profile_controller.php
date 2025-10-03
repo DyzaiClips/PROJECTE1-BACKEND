@@ -3,18 +3,9 @@ session_start();
 
 //comporvacions tipiques d'error request i post
 
-$id_user = $_POST['id_user'];
+header('Location: ../view/app_view.php');
+$_SESSION['user_logged']['name'] =  $_POST['name'];
+$_SESSION['user_logged']['username'] =  $_POST['username'];
+$_SESSION['user_logged']['mail'] =  $_POST['mail'];
 
-
-
-
-header('Location: ../view/user_profile_view.php')
-// foreach ($_SESSION['todoList'] as $key => $task) {
-//     if ($id_task == $task['id']) {
-//         //un cop hem localitzat la tasca
-//         //Actualitzar-la amb els valors que s'han pasat pel formulari
-//         $_SESSION['todoList'][$key]['name'] = $_POST['name'];
-//         header ('Location: ../view/app_view.php');
-//     }
-// }
-?>
+header ('Location: ../view/app_view.php');    

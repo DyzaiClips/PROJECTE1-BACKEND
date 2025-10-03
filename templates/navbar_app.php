@@ -27,7 +27,7 @@ include($path); //language text
 
             <ul class="nav">
 
-                <li class="nav-item">w
+                <li class="nav-item">
                     <a class="nav-link"  href="../view/user_profile_view.php"><?= $text['user_profile'] ?></a>
                 </li>
 
