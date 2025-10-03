@@ -11,11 +11,11 @@ include('../language/ca.php'); ?>
             <h2 class="text-center mb-4"> <?= $text['add_task_title'] ?></h2>
             <form action="../controller/register_controller.php" method="POST" class="border p-4 bg-light">
                 <div class="mb-3">
-                    <label for="name" class="form-label"><?= $text['register_name'] ?></label>
+                    <label for="name" class="form-label"><?= $text['task_name'] ?></label>
                     <input type="text" name="name" class="form-control" required>
                 </div>
                 <div class="mb-3">
-                    <label for="username" class="form-label"><?= $text['register_username'] ?></label>
+                    <label for="username" class="form-label"><?= $text['task_time_played'] ?></label>
                     <input type="text" name="username" class="form-control" placeholder="<?= $text['placeholder_userLogin'] ?>" required>
                 </div>
                 <div class="mb-3">
