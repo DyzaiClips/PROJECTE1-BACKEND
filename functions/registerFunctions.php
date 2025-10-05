@@ -19,6 +19,12 @@ function getNewUserId ($users){
     //retorno el id d'aquest usuari + 1
     return $lastUser['id']+1;
 }
+function getNewTaskId ($tasks){
+    //amb la funcio end recupero l'ultima tasca
+    $lasttask = end($tasks);
+    //retorno el id d'aquest usuari + 1
+    return $lasttask['id']+1;
+}
 
 function checkSamePassword($pass1, $pass2)
 {

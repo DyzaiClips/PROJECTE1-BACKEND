@@ -9,26 +9,14 @@ include('../language/ca.php'); ?>
     <div class="row justify-content-center">
         <div class="col-md-6">
             <h2 class="text-center mb-4"> <?= $text['add_task_title'] ?></h2>
-            <form action="../controller/register_controller.php" method="POST" class="border p-4 bg-light">
+            <form action="../controller/create_task_controller.php" method="POST" class="border p-4 bg-light">
                 <div class="mb-3">
-                    <label for="name" class="form-label"><?= $text['task_name'] ?></label>
+                    <label for="name" class="form-label"><?= $text['register_newgame_name'] ?></label>
                     <input type="text" name="name" class="form-control" required>
                 </div>
                 <div class="mb-3">
-                    <label for="username" class="form-label"><?= $text['task_time_played'] ?></label>
-                    <input type="text" name="username" class="form-control" placeholder="<?= $text['placeholder_userLogin'] ?>" required>
-                </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label"><?= $text['register_password'] ?></label>
-                    <input type="password" name="pass1" class="form-control" placeholder="<?= $text['placeholder_password'] ?>"  required>
-                </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label"> <?= $text['register_password_repeat'] ?></label>
-                    <input type="password" name="pass2" class="form-control" placeholder="<?= $text['placeholder_password'] ?>" required>
-                </div>
-                <div class="mb-3">
-                    <label for="username" class="form-label"><?= $text['register_email'] ?> </label>
-                    <input type="text" name="mail" class="form-control" required>
+                    <label for="hours_played" class="form-label"><?= $text['register_newgame_hoursplayed'] ?></label>
+                    <input type="text" name="hours_played" class="form-control" placeholder="<?= $text['placeholder_userLogin'] ?>" required>
                 </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary"><?= $text['send_button'] ?></button>

@@ -27,6 +27,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <label for="name" class="form-label">Nom: </label>
                     <input type="text" name="name" class="form-control" value="<?= $task['name'] ?>" required>
                 </div>
+                <div class="mb-3">
+                    <label for="hours_played" class="form-label">Hores de joc: </label>
+                    <input type="text" name="hours_played" class="form-control" value="<?= $task['hours_played'] ?>" required>
+                </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary"><?= $text['change_button'] ?></button>
                 </div> 

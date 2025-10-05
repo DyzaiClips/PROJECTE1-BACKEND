@@ -1,17 +1,17 @@
 <?php
 $users = [ [
          "id"=> 0,
-         "name"=> "Toni Fernandez",
-         "username" => "admin",
+         "name"=> "DanAdmin",
+         "username" => "Admin",
          "password" => "password",
-         "mail" => "toni.fernandez@cirvianum.cat",
+         "mail" => "dancastany06@gmail.com",
          "rol" => "admin"
      ],[
          "id"=> 1,
-         "name"=> "Raquel Boronat",
-         "username" => "raquel",
+         "name"=> "DanUser",
+         "username" => "Dan",
          "password" => "password",
-         "mail" => "raquel.boronat@cirvianum.cat",
+         "mail" => "dan.fernandez@cirvianum.cat",
          "rol" => "user" ]
 ];
 $_SESSION['users']=$users;

@@ -43,6 +43,7 @@ include('../language/ca.php');
                     <img src=<?= $task['imatge'] ?> class="card-img-top" alt=<? $task['alt']?>>
                     <div class="card-body">
                         <h5 class="card-title"><?= $task['name'] ?></h5>
+                        <p class="card-text"><?= $text['total_hours'] ?></p>
                         <p class="card-text"><?= $task['hours_played'] ?></p>
                         <div class="d-flex justify-content-center">
                             <!-- BOTO EDITAR -->
