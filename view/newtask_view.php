@@ -16,7 +16,7 @@ include('../language/ca.php'); ?>
                 </div>
                 <div class="mb-3">
                     <label for="hours_played" class="form-label"><?= $text['register_newgame_hoursplayed'] ?></label>
-                    <input type="text" name="hours_played" class="form-control" placeholder="<?= $text['placeholder_userLogin'] ?>" required>
+                    <input type="text" name="hours_played" class="form-control" placeholder="<?= $text['placeholder_newtaskhours'] ?>" required>
                 </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary"><?= $text['send_button'] ?></button>
